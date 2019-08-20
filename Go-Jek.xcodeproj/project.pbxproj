@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BC218AAF8EC09D6D9FF3C8E /* Pods_Go_JekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907EC03FF658162CD41E3839 /* Pods_Go_JekTests.framework */; };
+		575DB76EEA0F59F9F3B3775B /* Pods_Go_Jek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736D61200AC6302C9ACCADDA /* Pods_Go_Jek.framework */; };
 		5B6D8829230BB8EF00F53A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D8828230BB8EF00F53A34 /* AppDelegate.swift */; };
 		5B6D882B230BB8EF00F53A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D882A230BB8EF00F53A34 /* ViewController.swift */; };
 		5B6D882E230BB8EF00F53A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D882C230BB8EF00F53A34 /* Main.storyboard */; };
@@ -14,6 +16,14 @@
 		5B6D8833230BB8F100F53A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6D8831230BB8F100F53A34 /* LaunchScreen.storyboard */; };
 		5B6D883E230BB8F100F53A34 /* Go_JekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D883D230BB8F100F53A34 /* Go_JekTests.swift */; };
 		5B6D8849230BB8F100F53A34 /* Go_JekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D8848230BB8F100F53A34 /* Go_JekUITests.swift */; };
+		5B6D885A230BB9B500F53A34 /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D8856230BB9B400F53A34 /* Domain.swift */; };
+		5B6D885B230BB9B500F53A34 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D8857230BB9B400F53A34 /* EndPoints.swift */; };
+		5B6D885C230BB9B500F53A34 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D8858230BB9B500F53A34 /* NetworkManager.swift */; };
+		5B6D885D230BB9B500F53A34 /* NWResultStatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D8859230BB9B500F53A34 /* NWResultStatusEnum.swift */; };
+		5B6D8862230BB9E400F53A34 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D885F230BB9E300F53A34 /* Constants.swift */; };
+		5B6D8863230BB9E400F53A34 /* UIViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D8860230BB9E300F53A34 /* UIViewControllerExtention.swift */; };
+		5B6D8864230BB9E400F53A34 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D8861230BB9E400F53A34 /* Utility.swift */; };
+		9015FC6C990F6A39FE21B800 /* Pods_Go_JekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38010C75CF12FDBBD9BC2397 /* Pods_Go_JekUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38010C75CF12FDBBD9BC2397 /* Pods_Go_JekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_JekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6D8825230BB8EF00F53A34 /* Go-Jek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go-Jek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6D8828230BB8EF00F53A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B6D882A230BB8EF00F53A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,21 @@
 		5B6D8844230BB8F100F53A34 /* Go-JekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-JekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6D8848230BB8F100F53A34 /* Go_JekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_JekUITests.swift; sourceTree = "<group>"; };
 		5B6D884A230BB8F100F53A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6D8856230BB9B400F53A34 /* Domain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		5B6D8857230BB9B400F53A34 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		5B6D8858230BB9B500F53A34 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5B6D8859230BB9B500F53A34 /* NWResultStatusEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWResultStatusEnum.swift; sourceTree = "<group>"; };
+		5B6D885F230BB9E300F53A34 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5B6D8860230BB9E300F53A34 /* UIViewControllerExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtention.swift; sourceTree = "<group>"; };
+		5B6D8861230BB9E400F53A34 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		61011AC00CC932DE7C6FD42C /* Pods-Go-JekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekTests/Pods-Go-JekTests.debug.xcconfig"; sourceTree = "<group>"; };
+		736D61200AC6302C9ACCADDA /* Pods_Go_Jek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Jek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4F6F4229E6AB52D45C1ECB /* Pods-Go-JekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekTests/Pods-Go-JekTests.release.xcconfig"; sourceTree = "<group>"; };
+		907EC03FF658162CD41E3839 /* Pods_Go_JekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_JekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65183817453EBA6B343AD43 /* Pods-Go-JekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekUITests/Pods-Go-JekUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7DC535195FF06ABC35AF656 /* Pods-Go-JekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekUITests/Pods-Go-JekUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E274F1C6B628EDEC04FA2088 /* Pods-Go-Jek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-Jek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-Jek/Pods-Go-Jek.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF6C4499E67054A54272F5C /* Pods-Go-Jek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-Jek.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-Jek/Pods-Go-Jek.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575DB76EEA0F59F9F3B3775B /* Pods_Go_Jek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC218AAF8EC09D6D9FF3C8E /* Pods_Go_JekTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9015FC6C990F6A39FE21B800 /* Pods_Go_JekUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3424ECCA11A031237941AF38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				736D61200AC6302C9ACCADDA /* Pods_Go_Jek.framework */,
+				907EC03FF658162CD41E3839 /* Pods_Go_JekTests.framework */,
+				38010C75CF12FDBBD9BC2397 /* Pods_Go_JekUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B6D881C230BB8EF00F53A34 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				5B6D883C230BB8F100F53A34 /* Go-JekTests */,
 				5B6D8847230BB8F100F53A34 /* Go-JekUITests */,
 				5B6D8826230BB8EF00F53A34 /* Products */,
+				95B25090374EDA8220E7CDBD /* Pods */,
+				3424ECCA11A031237941AF38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				5B6D8828230BB8EF00F53A34 /* AppDelegate.swift */,
+				5B6D8865230BB9E900F53A34 /* CommonFeatures */,
+				5B6D885E230BB9BD00F53A34 /* NetworkLayer */,
 				5B6D882A230BB8EF00F53A34 /* ViewController.swift */,
 				5B6D882C230BB8EF00F53A34 /* Main.storyboard */,
 				5B6D882F230BB8F100F53A34 /* Assets.xcassets */,
@@ -125,6 +168,40 @@
 			path = "Go-JekUITests";
 			sourceTree = "<group>";
 		};
+		5B6D885E230BB9BD00F53A34 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5B6D8856230BB9B400F53A34 /* Domain.swift */,
+				5B6D8857230BB9B400F53A34 /* EndPoints.swift */,
+				5B6D8858230BB9B500F53A34 /* NetworkManager.swift */,
+				5B6D8859230BB9B500F53A34 /* NWResultStatusEnum.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		5B6D8865230BB9E900F53A34 /* CommonFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				5B6D885F230BB9E300F53A34 /* Constants.swift */,
+				5B6D8860230BB9E300F53A34 /* UIViewControllerExtention.swift */,
+				5B6D8861230BB9E400F53A34 /* Utility.swift */,
+			);
+			path = CommonFeatures;
+			sourceTree = "<group>";
+		};
+		95B25090374EDA8220E7CDBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E274F1C6B628EDEC04FA2088 /* Pods-Go-Jek.debug.xcconfig */,
+				ECF6C4499E67054A54272F5C /* Pods-Go-Jek.release.xcconfig */,
+				61011AC00CC932DE7C6FD42C /* Pods-Go-JekTests.debug.xcconfig */,
+				8B4F6F4229E6AB52D45C1ECB /* Pods-Go-JekTests.release.xcconfig */,
+				D7DC535195FF06ABC35AF656 /* Pods-Go-JekUITests.debug.xcconfig */,
+				A65183817453EBA6B343AD43 /* Pods-Go-JekUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B6D884D230BB8F100F53A34 /* Build configuration list for PBXNativeTarget "Go-Jek" */;
 			buildPhases = (
+				0B5204B756F2313D5A572D8E /* [CP] Check Pods Manifest.lock */,
 				5B6D8821230BB8EF00F53A34 /* Sources */,
 				5B6D8822230BB8EF00F53A34 /* Frameworks */,
 				5B6D8823230BB8EF00F53A34 /* Resources */,
+				5F2CB6D1B0AE716A5F2BBD27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B6D8850230BB8F100F53A34 /* Build configuration list for PBXNativeTarget "Go-JekTests" */;
 			buildPhases = (
+				27D65F64584E9724F0890C43 /* [CP] Check Pods Manifest.lock */,
 				5B6D8835230BB8F100F53A34 /* Sources */,
 				5B6D8836230BB8F100F53A34 /* Frameworks */,
 				5B6D8837230BB8F100F53A34 /* Resources */,
@@ -167,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B6D8853230BB8F100F53A34 /* Build configuration list for PBXNativeTarget "Go-JekUITests" */;
 			buildPhases = (
+				5D6F24AD59BC77988D9B2760 /* [CP] Check Pods Manifest.lock */,
 				5B6D8840230BB8F100F53A34 /* Sources */,
 				5B6D8841230BB8F100F53A34 /* Frameworks */,
 				5B6D8842230BB8F100F53A34 /* Resources */,
@@ -251,6 +332,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B5204B756F2313D5A572D8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go-Jek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27D65F64584E9724F0890C43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go-JekTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D6F24AD59BC77988D9B2760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go-JekUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2CB6D1B0AE716A5F2BBD27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Go-Jek/Pods-Go-Jek-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go-Jek/Pods-Go-Jek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B6D8821230BB8EF00F53A34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +416,13 @@
 			files = (
 				5B6D882B230BB8EF00F53A34 /* ViewController.swift in Sources */,
 				5B6D8829230BB8EF00F53A34 /* AppDelegate.swift in Sources */,
+				5B6D8864230BB9E400F53A34 /* Utility.swift in Sources */,
+				5B6D885C230BB9B500F53A34 /* NetworkManager.swift in Sources */,
+				5B6D885B230BB9B500F53A34 /* EndPoints.swift in Sources */,
+				5B6D8862230BB9E400F53A34 /* Constants.swift in Sources */,
+				5B6D8863230BB9E400F53A34 /* UIViewControllerExtention.swift in Sources */,
+				5B6D885D230BB9B500F53A34 /* NWResultStatusEnum.swift in Sources */,
+				5B6D885A230BB9B500F53A34 /* Domain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,14 +595,12 @@
 		};
 		5B6D884E230BB8F100F53A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E274F1C6B628EDEC04FA2088 /* Pods-Go-Jek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-Jek/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-Jek";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -447,14 +610,12 @@
 		};
 		5B6D884F230BB8F100F53A34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF6C4499E67054A54272F5C /* Pods-Go-Jek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-Jek/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-Jek";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -464,16 +625,13 @@
 		};
 		5B6D8851230BB8F100F53A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61011AC00CC932DE7C6FD42C /* Pods-Go-JekTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-JekTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-JekTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -484,16 +642,13 @@
 		};
 		5B6D8852230BB8F100F53A34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4F6F4229E6AB52D45C1ECB /* Pods-Go-JekTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-JekTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-JekTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -504,15 +659,12 @@
 		};
 		5B6D8854230BB8F100F53A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DC535195FF06ABC35AF656 /* Pods-Go-JekUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-JekUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-JekUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -523,15 +675,12 @@
 		};
 		5B6D8855230BB8F100F53A34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65183817453EBA6B343AD43 /* Pods-Go-JekUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-JekUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-JekUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
