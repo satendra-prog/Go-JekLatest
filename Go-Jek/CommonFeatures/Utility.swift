@@ -1,10 +1,11 @@
 //
 //  Utility.swift
-//  GoJek_Demo
+//  Go-Jek
 //
-//  Created by Satendra Singh on 16/08/19.
+//  Created by Satendra Singh on 20/08/19.
 //  Copyright © 2019 Satendra Singh. All rights reserved.
 //
+
 
 import UIKit
 
